@@ -1,0 +1,161 @@
+<html>
+    <body>
+    
+     <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+     </head>
+          <header>
+            <div class="logo">
+             <p>CARSEARCH</p>
+            </div>
+            <nav>
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="http://localhost/dbms%20project/car_details.php">Cars</a></li>
+                <li><a href="aboutus.html">Contact Us</a></li>
+               <li><!-- Assuming $row is the result of fetching data from your database -->
+<a href="delete.html" class="btn btn-danger">Delete Test Drive</a></li> 
+<li><!-- Assuming $row is the result of fetching data from your database -->
+  <a href="update.html" class="btn btn-primary">updateTest Drive</a></li> 
+<li><a href="stock.html" class="btn btn-primary">check in stock</a></li>
+<li><a href="brand.html" class="btn btn-primary">search by brand</a></li>
+<li><a href="http://localhost/price.php" class="btn btn-primary">search by price</a></li>
+<li><a href="http://localhost/average.php" class="btn btn-primary">get average price</a></li>
+<li><a href="admin.html" class="btn btn-primary">admin</a></li>
+
+
+              </ul>
+            </nav>
+          </header>
+          <main>
+
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+              </div>
+              <br>
+              <br>
+              <h2 class="pb-2 border-bottom"> <div class="text">
+                <p>Top Brands</p>
+               </div></h2>
+              <div class="carousel-inner">
+                <div class="carousel-item active carousel-item-start">
+                  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                  <div class="container">
+                    <div class="carousel-caption text-start">
+                      <br><img src="http://www.carlogos.org/logo/Volvo-logo-2006-1920x1080.png" class="d-block w-100" alt="BMW car logo" >
+                      <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">""Discover the essence of Scandinavian luxury and innovation with Volvo. Elevate your driving experience, where safety meets style seamlessly. Drive with confidence, choose Volvo excellence.""</font></font></p>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item carousel-item-next carousel-item-start">
+                  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                  <div class="container">
+                    <div class="carousel-caption">
+                     <br><img src="./Logo-BMW.png" class="d-block w-100" alt="BMW car logo" >
+                      
+                      <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Experience the thrill of precision and luxury with BMW. Elevate your drive with cutting-edge technology and iconic design. Own excellence today!"</font></font></p>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item ">
+                  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                  <div class="container">
+                    <div class="carousel-caption text-end">
+                      <br><img src="./Mercedes-Benz-logo.png" class="d-block w-100" alt="BMW car logo" >
+                  
+                       
+                       <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Indulge in the epitome of elegance and performance with Mercedes-Benz. Unleash a world of sophistication and innovation on every journey. Elevate your status, drive Mercedes-Benz."</font></font></p>
+                      
+                     </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">the previous</font></font></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">the next</font></font></span>
+              </button>
+            </div>
+          
+            <div class="text">
+              <p>New Arrival</p>
+             </div>
+            <div class="row">
+              <div class="column">
+                <img src="http://automowheelz.com/wp-content/uploads/2019/04/Harrier-Price-1919x1079.jpg">
+                <h1> TATA harrier</h1>
+                <p>The Tata Harrier is a stylish mid-size SUV, featuring a sleek design, powerful diesel engine, modern interior with advanced technology, and a focus on safety, making it a comfortable and versatile choice for drivers.</p>
+               
+              </div>
+              <div class="column">
+                <img src="https://stat.overdrive.in/wp-content/uploads/2022/12/2022-Toyota-Innova-Hycross-feat-900x506.jpg">
+                <h1> Toyota Innova Hycross</h1>
+                <p>The Toyota RAV4 Hybrid is a sleek and efficient crossover, known for its hybrid technology, spacious interior, advanced safety features, and smooth driving experience, making it an eco-friendly and reliable choice.</p>
+                
+              </div>
+              <div class="column">
+                <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2021/08/002_new_creta_FLP0789-2-e1629914452239.jpg">
+                <h1> Hyundai Creta</h1>
+                <p>The Hyundai Creta is a stylish compact SUV, offering a modern design, comfortable interior, advanced features, and a choice of efficient engines, making it a popular and versatile option for urban and adventurous driving.</p>
+               
+              </div>
+
+
+        
+           
+          
+            <div class="text">
+              <p>Top Rated Cars</p>
+             </div>
+
+     
+             <div class="row">
+              <div class="column">
+                
+                <img src="https://www.drive.co.uk/wp-content/uploads/2018/10/drive-Maggie-Barry-reviews-the-European-Car-of-the-Year-the-Volvo-XC40-SUV-19.jpg">
+                <div class="rated">
+                  <h1>Volvo XC40</h1>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.mjPKStLBCqjIMURWuWEDdQAAAA&pid=Api&P=0&h=180">
+                </div>
+              </div>
+              <div class="column">
+                
+                <img src="https://images.caricos.com/b/bmw/2023_bmw_x1/images/2560x1440/2023_bmw_x1_2_2560x1440.jpg">
+                <div class="rated">
+                  <h1>BMW X1 2023</h1>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.mjPKStLBCqjIMURWuWEDdQAAAA&pid=Api&P=0&h=180">
+                </div>
+              </div>
+              <div class="column">
+                
+                <img src="https://www.hdwallpapers.in/download/mercedes_maybach_gls_600_4matic_edition_100_2021_4k_5k_hd_cars-HD.jpg">
+                <div class="rated">
+                  <h1>Mercedes Benz Maybach Gls 600</h1>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.mjPKStLBCqjIMURWuWEDdQAAAA&pid=Api&P=0&h=180">
+                </div>
+              </div>
+             </div>
+         
+          
+         
+            <footer class="container"><br><br>
+              <p class="float-end"><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Back to top</font></font></a></p>
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">© 2023–2024 CARPRICE.All Rights Reserved.</font><font style="vertical-align: inherit;">· </font></font><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Privacy Policy</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> · </font></font><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Terms of Use</font></font></a></p>
+            </footer>
+          </main>
+      
+    </body>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        
+    
+</html>

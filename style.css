@@ -1,0 +1,105 @@
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    display: block;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #ffcc00;
+  }
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 33.33%;
+    padding: 15px;
+}
+.column img{
+    width: 400px;
+    border-radius: 10px; 
+}
+.text
+{
+    font-size: xx-large;
+    background: linear-gradient(
+        to right,rgb(0, 66, 249),#ed0000 35%, #d000ff );
+        background-size: 200% auto;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: gradient 3s linear infinite;
+}
+ @keyframes gradient
+{
+        0%{background-position: 0% 75%;}
+        50%{background-position: 100% 50%;}
+        100%{background-position: 0% 70%;}
+        
+}
+.column h1{
+color:black;
+font-size: 20px;
+ 
+}
+.btn {
+    width: 120px; /* Adjust the width as needed */
+}
+.containerss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-direction: row;
+}
+
+.text, .content {
+  width: 100%; /* Adjust the width as needed */
+}
+
+.photo {
+  width: 50%;
+  text-align: right;
+}
+
+.photo img {
+  width: 100%;
+  border-radius: 10px; /* Optional: Add rounded corners to the image */
+}
+.rated
+{
+    padding-top: 10px;
+}
+.logo p{
+  font-family: cursive;
+ font-size: 20px;
+}
+
+.column a{
+  text-decoration: none;
+  color:white;
+}
